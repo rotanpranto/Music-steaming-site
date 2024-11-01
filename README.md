@@ -1,5 +1,5 @@
 # Music-steaming-site
-Description: This steaming site uses the potential of mern stack and ML.
+Description: This steaming site used the potential of mern stack and ML.
 
 File Structure:
 
