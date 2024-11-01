@@ -1,0 +1,23 @@
+.playlistContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 10rem;
+  }
+  
+  .playlistItem {
+    padding: 10px;
+    background-color: tomato;
+    margin: 10px 10px;
+    cursor: pointer;
+  }
+  
+  .playlistName {
+    font-size: 16px;
+  }
+  
+  .playlistItem:hover {
+    background-color: white;
+    color: tomato;
+  }
+  

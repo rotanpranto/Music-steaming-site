@@ -1,0 +1,20 @@
+.homeContainer {
+    height: 100vh;
+    background-image: url(background.jpg);
+}
+
+.homeContainer .tracksContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.homeContainer .track {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+}
+
+.homeContainer .track-image {
+    width: 8rem;
+    height: 8rem;
+}

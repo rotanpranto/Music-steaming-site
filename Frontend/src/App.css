@@ -1,0 +1,14 @@
+body {
+    height:max-content;
+    background-color: black;
+    box-sizing: border-box;
+  }
+
+.App{
+    padding: 1rem 1rem 0 3rem;
+    background-color: black;
+}
+  a {
+    color: white;
+    text-decoration-line: none;
+  }

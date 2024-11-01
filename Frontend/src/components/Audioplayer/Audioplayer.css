@@ -1,0 +1,104 @@
+.button{
+  color: tomato;
+  margin: 0 20px;
+}
+
+.unselectedButto{
+  color: white;
+  margin: 0 20px;
+}
+
+.disable{
+  color: gray;
+  margin: 0 20px;
+}
+
+.playerBody{
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: calc(100%); 
+  height: max-content;
+  z-index: 9999;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.colright{
+  flex: 0 0 calc(20%);
+ 
+  display: flex;
+  align-items: center;
+}
+
+.colright img {
+  flex: 0 0 auto;
+  margin-right: 10px;
+  width: 4rem;
+}
+
+.textbox{
+  flex: 1 1 auto;
+}
+.colcenter{
+  flex: 0 0 calc(40%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.colleft{
+  flex: 0 0 calc(30%);
+  display: flex;
+  align-items:end;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.therows{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  input[type='range'] {
+    overflow: hidden;
+    width: 20rem;
+    background-color:tomato;
+  }
+  
+  input[type='range']::-webkit-slider-runnable-track {
+    height: 10px;
+    color: tomato;
+    margin-top: -1px;
+  }
+  
+  input[type='range']::-webkit-slider-thumb {
+    width: 5px;
+    height: 5px;
+    cursor: default;
+    background: white;
+  }
+
+}
+input[type="range"]::-moz-range-progress {
+background-color: white; 
+}
+input[type="range"]::-moz-range-track {  
+background-color:  tomato;
+}
+input[type="range"]::-ms-fill-lower {
+background-color: white; 
+}
+input[type="range"]::-ms-fill-upper {  
+background-color:  tomato;
+}

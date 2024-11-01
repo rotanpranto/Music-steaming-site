@@ -1,0 +1,33 @@
+.loginsignup {
+    margin-top: 20px;
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif
+}
+
+.loginsignup .button {
+    background-color: #4DD0E1;
+    border: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 7px 7px;
+    border-radius: 20px;
+}
+
+.loginsignup .button1 {
+    background-color: #64B5F6;
+    border: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 7px 7px;
+    border-radius: 20px;
+}

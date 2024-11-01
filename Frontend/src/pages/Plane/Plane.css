@@ -1,0 +1,29 @@
+.plane {
+    width: 8rem;
+    height: 6rem;
+    position: absolute;
+    z-index: 999;
+    background-color: black;
+    color: tomato;
+    border: 1px solid white;
+    overflow: visible;
+  }
+
+  .playlists {
+    border: 1px solid tomato;
+    margin: 0;
+    border-left: 0rem;
+    border-right: 0rem;
+    padding: 0.5rem 0.5rem;
+  }
+  
+  .formpanel {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }

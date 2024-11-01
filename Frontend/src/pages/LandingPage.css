@@ -1,0 +1,20 @@
+.LandingPage .background {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.LandingPage .greetings {
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    font-size: 60px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 50px;
+}
+
+.LandingPage .icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
